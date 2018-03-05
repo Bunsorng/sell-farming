@@ -1,0 +1,6 @@
+framework module Pods_sell_farmingUITests {
+  umbrella header "Pods-sell-farmingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

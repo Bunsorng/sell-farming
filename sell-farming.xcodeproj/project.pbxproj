@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B71C53B6DFAA57966747C9F /* Pods_sell_farmingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8D6433EBC47BAF5E16B96C /* Pods_sell_farmingUITests.framework */; };
+		5DF044FA058C5CEA48C3AE2F /* Pods_sell_farmingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458E4669B207D9CAEAC9667F /* Pods_sell_farmingTests.framework */; };
+		C5CC64CA59B08AA3677003A1 /* Pods_sell_farming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F30823D0C618F8EB0F281 /* Pods_sell_farming.framework */; };
 		FF94C94B204CEC0500D1C266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C94A204CEC0500D1C266 /* AppDelegate.swift */; };
 		FF94C94D204CEC0500D1C266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C94C204CEC0500D1C266 /* ViewController.swift */; };
 		FF94C950204CEC0500D1C266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94C94E204CEC0500D1C266 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		FF94C955204CEC0500D1C266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94C953204CEC0500D1C266 /* LaunchScreen.storyboard */; };
 		FF94C960204CEC0500D1C266 /* sell_farmingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C95F204CEC0500D1C266 /* sell_farmingTests.swift */; };
 		FF94C96B204CEC0500D1C266 /* sell_farmingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C96A204CEC0500D1C266 /* sell_farmingUITests.swift */; };
+		FF94C979204CEDED00D1C266 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF94C978204CEDED00D1C266 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C7F268E3FF9C8E5CFD4E16 /* Pods-sell-farming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farming/Pods-sell-farming.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2F30823D0C618F8EB0F281 /* Pods_sell_farming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sell_farming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F284F6ED80D75AAA9863FD0 /* Pods-sell-farmingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farmingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farmingUITests/Pods-sell-farmingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		440382950C319364838A69BF /* Pods-sell-farmingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farmingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farmingTests/Pods-sell-farmingTests.release.xcconfig"; sourceTree = "<group>"; };
+		458E4669B207D9CAEAC9667F /* Pods_sell_farmingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sell_farmingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C649A144B05058452750DA5 /* Pods-sell-farmingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farmingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farmingUITests/Pods-sell-farmingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8D6433EBC47BAF5E16B96C /* Pods_sell_farmingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sell_farmingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0226ADE49DC8065ED294A97 /* Pods-sell-farming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farming.release.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farming/Pods-sell-farming.release.xcconfig"; sourceTree = "<group>"; };
+		FE36AE9F6F2FE1FF1575DBC4 /* Pods-sell-farmingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sell-farmingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sell-farmingTests/Pods-sell-farmingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF94C947204CEC0500D1C266 /* sell-farming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sell-farming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF94C94A204CEC0500D1C266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF94C94C204CEC0500D1C266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		FF94C966204CEC0500D1C266 /* sell-farmingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sell-farmingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF94C96A204CEC0500D1C266 /* sell_farmingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sell_farmingUITests.swift; sourceTree = "<group>"; };
 		FF94C96C204CEC0500D1C266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94C978204CEDED00D1C266 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CC64CA59B08AA3677003A1 /* Pods_sell_farming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF044FA058C5CEA48C3AE2F /* Pods_sell_farmingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B71C53B6DFAA57966747C9F /* Pods_sell_farmingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53BF5215740ABBF39E9E6A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F30823D0C618F8EB0F281 /* Pods_sell_farming.framework */,
+				458E4669B207D9CAEAC9667F /* Pods_sell_farmingTests.framework */,
+				7C8D6433EBC47BAF5E16B96C /* Pods_sell_farmingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		975706690C4486172F7D79C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F268E3FF9C8E5CFD4E16 /* Pods-sell-farming.debug.xcconfig */,
+				F0226ADE49DC8065ED294A97 /* Pods-sell-farming.release.xcconfig */,
+				FE36AE9F6F2FE1FF1575DBC4 /* Pods-sell-farmingTests.debug.xcconfig */,
+				440382950C319364838A69BF /* Pods-sell-farmingTests.release.xcconfig */,
+				7C649A144B05058452750DA5 /* Pods-sell-farmingUITests.debug.xcconfig */,
+				2F284F6ED80D75AAA9863FD0 /* Pods-sell-farmingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF94C93E204CEC0500D1C266 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				FF94C95E204CEC0500D1C266 /* sell-farmingTests */,
 				FF94C969204CEC0500D1C266 /* sell-farmingUITests */,
 				FF94C948204CEC0500D1C266 /* Products */,
+				975706690C4486172F7D79C4 /* Pods */,
+				53BF5215740ABBF39E9E6A89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,16 @@
 		FF94C949204CEC0500D1C266 /* sell-farming */ = {
 			isa = PBXGroup;
 			children = (
+				FF94C97C204CF37200D1C266 /* Controller */,
+				FF94C97B204CF36A00D1C266 /* View */,
+				FF94C97A204CF36100D1C266 /* Model */,
 				FF94C94A204CEC0500D1C266 /* AppDelegate.swift */,
 				FF94C94C204CEC0500D1C266 /* ViewController.swift */,
 				FF94C94E204CEC0500D1C266 /* Main.storyboard */,
 				FF94C951204CEC0500D1C266 /* Assets.xcassets */,
 				FF94C953204CEC0500D1C266 /* LaunchScreen.storyboard */,
 				FF94C956204CEC0500D1C266 /* Info.plist */,
+				FF94C978204CEDED00D1C266 /* GoogleService-Info.plist */,
 			);
 			path = "sell-farming";
 			sourceTree = "<group>";
@@ -125,6 +171,27 @@
 			path = "sell-farmingUITests";
 			sourceTree = "<group>";
 		};
+		FF94C97A204CF36100D1C266 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF94C97B204CF36A00D1C266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF94C97C204CF37200D1C266 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF94C96F204CEC0500D1C266 /* Build configuration list for PBXNativeTarget "sell-farming" */;
 			buildPhases = (
+				92811F67E174DE6C98D90BDC /* [CP] Check Pods Manifest.lock */,
 				FF94C943204CEC0500D1C266 /* Sources */,
 				FF94C944204CEC0500D1C266 /* Frameworks */,
 				FF94C945204CEC0500D1C266 /* Resources */,
+				3289D5696180B41B123F1432 /* [CP] Embed Pods Frameworks */,
+				2EB96ACF775BF344E133A18B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF94C972204CEC0500D1C266 /* Build configuration list for PBXNativeTarget "sell-farmingTests" */;
 			buildPhases = (
+				84EA7F21A7A6099CAD6E8449 /* [CP] Check Pods Manifest.lock */,
 				FF94C957204CEC0500D1C266 /* Sources */,
 				FF94C958204CEC0500D1C266 /* Frameworks */,
 				FF94C959204CEC0500D1C266 /* Resources */,
+				54A18733377B3CFDCBF48CA2 /* [CP] Embed Pods Frameworks */,
+				255F1E615C93952053CDF810 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF94C975204CEC0500D1C266 /* Build configuration list for PBXNativeTarget "sell-farmingUITests" */;
 			buildPhases = (
+				E74A570B4602D23A8891CB6F /* [CP] Check Pods Manifest.lock */,
 				FF94C962204CEC0500D1C266 /* Sources */,
 				FF94C963204CEC0500D1C266 /* Frameworks */,
 				FF94C964204CEC0500D1C266 /* Resources */,
+				90388822EF2898395B8EE430 /* [CP] Embed Pods Frameworks */,
+				3F18C9233F1AC774B060E83B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF94C955204CEC0500D1C266 /* LaunchScreen.storyboard in Resources */,
+				FF94C979204CEDED00D1C266 /* GoogleService-Info.plist in Resources */,
 				FF94C952204CEC0500D1C266 /* Assets.xcassets in Resources */,
 				FF94C950204CEC0500D1C266 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +330,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		255F1E615C93952053CDF810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farmingTests/Pods-sell-farmingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB96ACF775BF344E133A18B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farming/Pods-sell-farming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3289D5696180B41B123F1432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sell-farming/Pods-sell-farming-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farming/Pods-sell-farming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F18C9233F1AC774B060E83B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farmingUITests/Pods-sell-farmingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A18733377B3CFDCBF48CA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farmingTests/Pods-sell-farmingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84EA7F21A7A6099CAD6E8449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sell-farmingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90388822EF2898395B8EE430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sell-farmingUITests/Pods-sell-farmingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92811F67E174DE6C98D90BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sell-farming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74A570B4602D23A8891CB6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sell-farmingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF94C943204CEC0500D1C266 /* Sources */ = {
@@ -424,6 +657,7 @@
 		};
 		FF94C970204CEC0500D1C266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C7F268E3FF9C8E5CFD4E16 /* Pods-sell-farming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +673,7 @@
 		};
 		FF94C971204CEC0500D1C266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0226ADE49DC8065ED294A97 /* Pods-sell-farming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +689,7 @@
 		};
 		FF94C973204CEC0500D1C266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE36AE9F6F2FE1FF1575DBC4 /* Pods-sell-farmingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +707,7 @@
 		};
 		FF94C974204CEC0500D1C266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440382950C319364838A69BF /* Pods-sell-farmingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +725,7 @@
 		};
 		FF94C976204CEC0500D1C266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C649A144B05058452750DA5 /* Pods-sell-farmingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +742,7 @@
 		};
 		FF94C977204CEC0500D1C266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F284F6ED80D75AAA9863FD0 /* Pods-sell-farmingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

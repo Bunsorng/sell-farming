@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>571866831557-khv06bk87t1tj1oqhmj2ldf1vknhepsk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.571866831557-khv06bk87t1tj1oqhmj2ldf1vknhepsk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBcS7BB8drEuArMyj174F0ZClzSr2bSx6s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>571866831557</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sorng.sell-farming</string>
+	<key>PROJECT_ID</key>
+	<string>sell-farming</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sell-farming.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:571866831557:ios:c5a76dd8682d6f46</string>
+	<key>DATABASE_URL</key>
+	<string>https://sell-farming.firebaseio.com</string>
+</dict>
+</plist>
